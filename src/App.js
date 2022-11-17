@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import NpCard from './components/np-component/NpCard'
 
 function App() {
   return (
     <div className="App">
+      {/* <NpCard/> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
